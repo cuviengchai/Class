@@ -1,0 +1,32 @@
+HMM, CRF, and search
+
+Syntax (part of speech)
+Input
+    •   They refuse to permit us to obtain the refuse permit.
+Output
+    •   They/[PRP] refuse/[VBP] to/[To] permit/[VB] us/[PRP] 
+        to/[TO] obtain/[VB] the/[DT] refuse/[NN] permit/[NN] 
+Pos usage
+• Word disambiguation - Different word vectors for different PoS of the same words
+• Text-to-speech - Different pronunciations based on PoS tag
+• Helps other NLP tasks
+• PoS provides additional information that helps other tasks
+    • Tokenization
+    • Name-Entity Recognition
+        • Identify group of words that refer to the same entity
+            เสก โลโซ ร้อง เพลง คุกกี้ เสี่ยงทาย
+            [เสกโลโซ]/person ร้อง เพลง [คุกกี้เสี่ยงทาย]/title
+    • Parsing
+
+Traditional methods
+    • Frequency-based
+        -   Guest by looking the frequency
+    • Local methods
+        -   prefiesx, suffixes (ly,cal)
+    • Sequence methods
+        -   Determining the PoS taging word around
+        -   Sequence problems
+    • HMM
+    • CRF
+    • Viterbi and beamsearch
+• Neural network methods 

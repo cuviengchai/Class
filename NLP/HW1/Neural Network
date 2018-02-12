@@ -1,0 +1,34 @@
+Deep Neural Networks(DDNs)
+Neural Networks = Deep Learning
+
+    Input --> Linear Algebra --> Output
+
+    Do it until it look right
+
+    Stack more layers (more layers == more complex ~~ more performance)
+
+ Sensors --> Feature Engineering + Classification --> output
+ Sensors --> Deeeeeep Learning --> output
+ Why deep learning good - Because it can tell
+    -   Known knowns
+    -   Known unknowns
+    -   Unknown unknowns **** (Deep can do || Classification cannot do)
+
+Fully connected networks    (Computation Graph)
+    - Input * weight matrix + bias --> activation function (non linear function)
+    - Overfit problems
+
+there are 2 layers which are Input layer and Hidden layer --> softmax layer(for change range to 0-1)
+Nonlinearity 3
+[1] Sigmoid or logistic function  โค้ง output 0 to 1
+[2] tanh   output -1 to 1
+[3] Rectified Linear unit (ReLU) หัก    maax(0,X)
+
+Output layer - Softmax - output probability (0 to 1) the meaning of output
+Softmax = A/A+B+C e^h(y) something like that
+
+Keywords
+    1. vector x
+    2. linear regression
+    3. Discriminative model - 
+    4. zero mean unit variance

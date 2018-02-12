@@ -1,0 +1,9 @@
+Tokenization & neural network
+    Change word to tokens
+Cut-kum
+    -   Dictionary base word segmentation (Lexto)   
+        -   longest matching
+        -   Maximal matching (try to make less words) ตัดคำให้ได้น้อยสุด
+็heuristic == rule
+
+Problems (Out-ofVocabulary,OOV words)

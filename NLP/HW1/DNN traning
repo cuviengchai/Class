@@ -1,0 +1,61 @@
+Loss function (use for evaluating model)
+    - Cross entropy (Equation) | Entropy ^ | true Value ^ | 01010101
+    - Sum of square errors (Equation) not 01010101
+Regularization (for decreasing overfitting)
+L2 = loss function + 0.5*C sigma(w^2)
+L1 = ^2 --> | |
+
+WTF above is useless 
+
+For neural network
+loss function is non-convex มีจุดต่ำสุดหลายจุด
+
+Gradiant เพื่อลด loss in NN (Chain rules) 
+Back propagation
+    - forward pass
+    - backward pass
+
+Intialzation (ก่อนลงเขา) increase performance 0.5%
+    -   3 things
+
+Learning rate
+    -   Step decay reduce LR by x after y
+    -   New bob when error occur
+    -   Exponential     ...
+
+ADAM + variants
+Momentum   while go strange --> someone tells you should turn right
+Wnew = Wold- Vnew
+Vnew = ...... formularrrrrr
+
+Overfitting (stick with data)
+    -   dropout swop doing tasks
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+Convolutional Neural Networks (CNNs)
+    2 parts: convolutional layer and pooling layer
+    slide and compare ... find value
+
+    Subsampling
+    - Sharing of parameter in space 
+    convolution (Find value )---> pooling layer Max filter (Max value) grouping --> CNN combine
+
+Recurrent neural network (RNN) 
+    - remember
+    - connect output to input
+
+Gated Recurrent Unit (GRU)
+Long Short-Term Memory (LSTM) 

@@ -1,0 +1,24 @@
+Helping form Burin
+Problem
+1. do have enough space to store test data
+Sol. mount disk to file name data
+    - https://cloud.google.com/compute/docs/disks/add-persistent-disk
+
+2. can not write file because of permission
+Sol. change permission, change owner
+    - sudo chmod -R 755 /data/...
+    - $ls -l
+    - chown ekapolc:ekapolc /data
+3. Burin teach tmux
+    - https://danielmiessler.com/study/tmux/
+    - tmux ls
+    - tmux new -s [name]
+    - close cltr+d
+    - out cltr + b d
+    - access tmux a -t [name]
+    - new window close cltr+b c
+    new cltr+b ", cltr+b %
+4. open tensorboard
+ - tensorboard --logdir=/data/Graph/ff
+5. size file 
+    - du -bsh /data
